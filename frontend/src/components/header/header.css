@@ -3,3 +3,7 @@
     width: 100%;
     background-color: rgba(143,235,100,38%);
 }
+.header_navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
