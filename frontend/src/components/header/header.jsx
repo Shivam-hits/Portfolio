@@ -11,6 +11,11 @@ function Header() {
           <h3>Contact Me</h3>
         </div>
       </div>
+
+      <div className='Master'>
+        <h1 className="name">SHIVAM AWASTHI</h1>
+        <p>HI ,I would like to welcome you to my personal portfolio<br/>website</p>
+      </div>
     </div>
   )
 }

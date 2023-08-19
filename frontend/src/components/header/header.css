@@ -14,3 +14,7 @@
 .header_navbar_2{
     display: flex;
 }
+.name{
+    font-size: 45px;
+    font-weight: 600;
+}
