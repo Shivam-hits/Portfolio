@@ -1,10 +1,17 @@
+
 .header_container{
     height: 550px;
     width: 100%;
     background-color: rgba(143,235,100,48%);
+    /* background-image: url("../../image/Vector.png");
+    background-repeat: no-repeat;
+    background-image: ; */
 }
+
 .header_navbar{
+    position: relative;
     display: flex;
+    z-index: 0;
     justify-content: space-between;
 }
 
@@ -12,9 +19,37 @@
     margin: 40px;
 }
 .header_navbar_2{
+    background-color: #8FEB64;
+    width: 724px;
     display: flex;
+    justify-content: center;
+    border-radius:80px 0 0 0 ;
 }
 .name{
     font-size: 45px;
     font-weight: 600;
+}
+.Master{
+    display: flex;
+    justify-content: space-between;
+}
+.Master .image{
+    position: relative;
+    margin: 30px 200px;
+    z-index: 0;
+    
+}
+.master_image{
+    height: 447px;
+    background-color: #8FEB64;
+    border-radius: 0 0 0 80px;
+    /* background-image: url("../../image/Vector.png");
+    background-repeat: no-repeat; */
+    
+}
+.Master .intro{
+    margin: 75px 100px 100px 150px;
+}
+.hire_me_image{
+    margin: 40px 0 0 0;
 }

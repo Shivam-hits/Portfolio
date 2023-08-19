@@ -1,5 +1,8 @@
 import React from 'react'
 import "./header.css"
+import Master from "../../image/master(1).png"
+import Hire from "../../image/Group2.svg"
+
 function Header() {
   return (
     <div className='header_container'>
@@ -13,11 +16,26 @@ function Header() {
       </div>
 
       <div className='Master'>
-        <h1 className="name">SHIVAM AWASTHI</h1>
-        <p>HI ,I would like to welcome you to my personal portfolio<br/>website</p>
+
+        <div className='intro'>
+          <h1 className="name">SHIVAM AWASTHI</h1>
+          <p>HI, I would like to welcome you to my personal portfolio<br/>website</p>
+
+          <div className='Hire'>
+            <img src={Hire} className='hire_me_image' alt="" srcset="" />
+          </div>
+
+        </div>
+
+        <div className='master_image'>
+          <img src={Master} className='image'  alt="Master image" srcset="" />
+        </div>
+        
       </div>
+      
     </div>
   )
 }
 
 export default Header;
+// Backgound vectors and arrows are left
