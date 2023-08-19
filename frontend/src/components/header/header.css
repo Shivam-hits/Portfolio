@@ -1,9 +1,16 @@
 .header_container{
     height: 550px;
     width: 100%;
-    background-color: rgba(143,235,100,38%);
+    background-color: rgba(143,235,100,48%);
 }
 .header_navbar{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.header_navbar>h3,.header_navbar_2>h3{
+    margin: 40px;
+}
+.header_navbar_2{
+    display: flex;
 }
