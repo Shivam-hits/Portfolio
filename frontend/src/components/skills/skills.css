@@ -1,0 +1,8 @@
+.Skills_list_container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0 0 0;
+}
+.skills_tital{
+    margin: 100px 0 0 140px;
+}
