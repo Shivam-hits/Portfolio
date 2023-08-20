@@ -1,0 +1,14 @@
+.Aboutme_container{
+    margin: 100px;
+}
+.about_me{
+    color: #4EBE19;
+}
+.closed_box{
+    margin: 100px 100px 100px 50px;
+}
+.about_parent_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 46px;
+}

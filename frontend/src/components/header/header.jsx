@@ -2,6 +2,7 @@ import React from 'react'
 import "./header.css"
 import Master from "../../image/master(1).png"
 import Hire from "../../image/Group2.svg"
+import Star from "../../image/star.png"
 
 function Header() {
   return (
@@ -32,7 +33,16 @@ function Header() {
         </div>
         
       </div>
-      
+  
+      <div className='infinite'>
+        <div className='contents'>
+          <h1>UI UX DESIGN . ALGORITHMS . WEB DEVELOPMENT . REACTJS .  DATA STRUCTURES . VIDEO EDITINGS <img className='scroll_start' src={Star} alt=''></img></h1>
+        </div>
+        <div className='contents'>
+          <h1>UI UX DESIGN . ALGORITHMS . WEB DEVELOPMENT . REACTJS .  DATA STRUCTURES . VIDEO EDITINGS <img className='scroll_start' src={Star} alt=''></img></h1>
+        </div>
+      </div>
+
     </div>
   )
 }
