@@ -5,7 +5,7 @@ import Open from "../../image/open_box.png"
 function Box() {
   return (
     <div className='Aboutme_container'>
-      <p className='about_me'>Me on web projects</p>
+      <p className='about_me'>What I can do</p>
       
       <div className='about_parent_container'>
 
