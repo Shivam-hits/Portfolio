@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div className='skills_container'>
 
-      <h1 className='skills_tital'>My Skills</h1>
+      <h1 className='skills_title'>My Skills</h1>
 
       <div className='Skills_list_container'>
 
