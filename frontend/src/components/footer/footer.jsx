@@ -18,7 +18,7 @@ function Footer() {
             and understanding the need of users and industry<br/>
             are our prime concern.
           </h3>
-          <p className='footer_contact_button'>Get in touch</p>
+          <button className='footer_contact_button'>Get in touch</button>
         </div>
         
       </div>

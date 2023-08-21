@@ -1,11 +1,12 @@
 import React from 'react'
 import "./latest.css"
+import { Link } from "react-router-dom"
 function Latest() {
   return (
     <div className='Latest_projects'>
       <div className='project_desc'>
       <h1>Latest Projects</h1>
-      <h3 >See All</h3>
+      <h3><Link to="/project">See All</Link></h3>
       </div>
       
       <div className='project_container'>  {/*   project card container */}
@@ -33,9 +34,6 @@ function Latest() {
 
           </div>
         </div>
-       
-       
-
       </div>
 
     </div>

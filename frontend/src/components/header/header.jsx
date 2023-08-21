@@ -3,6 +3,7 @@ import "./header.css"
 import Master from "../../image/master(1).png"
 import Hire from "../../image/Group2.svg"
 import Star from "../../image/star.png"
+import { Link } from "react-router-dom"
 
 function Header() {
   return (
@@ -11,8 +12,8 @@ function Header() {
       <div className='header_navbar'>
         <h3>Act as Shivam</h3>
         <div className='header_navbar_2'>
-          <h3>About Me</h3>
-          <h3>Contact Me</h3>
+          <h3><Link to="/about">About Me</Link></h3>
+          <h3><Link to="/Contact Me">Contact me</Link></h3>
         </div>
       </div>
 
