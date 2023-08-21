@@ -13,7 +13,7 @@ function Header() {
         <h3>Act as Shivam</h3>
         <div className='header_navbar_2'>
           <h3><Link to="/about">About Me</Link></h3>
-          <h3><Link to="/Contact Me">Contact me</Link></h3>
+          <h3><a href='#footer_contact_button'>Contact me</a></h3>
         </div>
       </div>
 
@@ -24,7 +24,7 @@ function Header() {
           <p>HI, I would like to welcome you to my personal portfolio<br/>website</p>
 
           <div className='Hire'>
-            <img src={Hire} className='hire_me_image' alt="" srcset="" />
+          <a href="mailto:shivamhits1972@gmail.com"><img src={Hire} className='hire_me_image' alt="" srcset="" /></a>
           </div>
 
         </div>

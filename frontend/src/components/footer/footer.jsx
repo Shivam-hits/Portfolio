@@ -18,7 +18,7 @@ function Footer() {
             and understanding the need of users and industry<br/>
             are our prime concern.
           </h3>
-          <button className='footer_contact_button'>Get in touch</button>
+          <a href="mailto:shivamhits1972@gmail.com"><button id='footer_contact_button' className='footer_contact_button'>Get in Touch</button></a>
         </div>
         
       </div>
@@ -41,8 +41,11 @@ function Footer() {
           <div className='dribbble'>
             <p>dribbble</p>
           </div>
+
         </div>
+
       </div>
+      
     </div>
   )
 }
