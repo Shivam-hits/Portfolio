@@ -13,7 +13,7 @@ function Header() {
         <h3>Act as Shivam</h3>
         <div className='header_navbar_2'>
           <h3>About Me</h3>
-          <h3><a href='#footer_contact_button'>Contact me</a></h3>
+          <h3><a style={{textDecoration: "none", color:"black"}} href='#footer_contact_button'>Contact me</a></h3>
         </div>
       </div>
 
@@ -25,7 +25,7 @@ function Header() {
 
           <div className='Hire'>
           <a href="mailto:shivamhits1972@gmail.com"><img src={Hire} className='hire_me_image' alt="" srcset="" /></a>
-          <h3 className='github'>GitHub</h3>
+          <a  style={{textDecoration: "none"}} href="https://github.com/Shivam-hits"><h3 className='github'>GitHub</h3></a>
           </div>
 
         </div>

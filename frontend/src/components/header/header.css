@@ -5,11 +5,16 @@
     border-radius: 10px;
     border: 1px solid black;
     text-align: center;
+    color: black;
     padding: 18px 0 0 0;
+}
+.github:hover{
+    background-color: #8FEB64;
+    border: 0px solid #8FEB64;
+    box-shadow: 2px 2px 8px;
 }
 
 .Hire{
-    
     display: flex;
 }
 .header_container{
