@@ -12,7 +12,7 @@ function Header() {
       <div className='header_navbar'>
         <h3>Act as Shivam</h3>
         <div className='header_navbar_2'>
-          <h3><Link to="/about">About Me</Link></h3>
+          <h3>About Me</h3>
           <h3><a href='#footer_contact_button'>Contact me</a></h3>
         </div>
       </div>
@@ -21,10 +21,11 @@ function Header() {
 
         <div className='intro'>
           <h1 className="name">SHIVAM AWASTHI</h1>
-          <p>HI, I would like to welcome you to my personal portfolio<br/>website</p>
+          <p>HI, I would like to welcome you to my personal portfolio<br/>website.</p>
 
           <div className='Hire'>
           <a href="mailto:shivamhits1972@gmail.com"><img src={Hire} className='hire_me_image' alt="" srcset="" /></a>
+          <h3 className='github'>GitHub</h3>
           </div>
 
         </div>

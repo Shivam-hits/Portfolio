@@ -1,4 +1,17 @@
+.github{
+    height: 42px;
+    width: 200px;
+    margin: 35px 0 0 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 18px 0 0 0;
+}
 
+.Hire{
+    
+    display: flex;
+}
 .header_container{
     height: 550px;
     width: 100%;
