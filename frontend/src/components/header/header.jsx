@@ -12,8 +12,8 @@ function Header() {
       <div className='header_navbar'>
         <h3>Act as Shivam</h3>
         <div className='header_navbar_2'>
-          <h3>About Me</h3>
-          <h3><a style={{textDecoration: "none", color:"black"}} href='#footer_contact_button'>Contact me</a></h3>
+          {/* <h3>About Me</h3> */}
+          {/* <h3><a style={{textDecoration: "none", color:"black"}} href='#footer_contact_button'>Contact me</a></h3> */}
         </div>
       </div>
 
