@@ -3,7 +3,6 @@ import "./header.css"
 import Master from "../../image/master(1).png"
 import Hire from "../../image/Group2.svg"
 import Star from "../../image/star.png"
-import { Link } from "react-router-dom"
 
 function Header() {
   return (
